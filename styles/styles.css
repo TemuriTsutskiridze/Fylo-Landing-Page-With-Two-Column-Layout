@@ -237,7 +237,7 @@ main {
 .team {
     width: 280px;
     height: 169px;
-    padding: 20px 12.7px 16.5px 26px;
+    padding: 20px 12px 21px 25px;
     background: #FFFFFF;
     box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
     border-radius: 3.93258px;
@@ -246,6 +246,7 @@ main {
     align-items: flex-start;
     gap: 10px;
     margin-top: 40px;
+    box-sizing: border-box;
 }
 
 .team_paragraph {
@@ -260,7 +261,6 @@ main {
     display: flex;
     align-items: center;
     gap: 7.5px;
-    flex-direction: column;
 }
 
 .info img {
@@ -394,9 +394,9 @@ footer p {
     margin-top: 32px;
 }
 
-.info {
+.footer_info {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 
 .phone, .mail {
@@ -572,7 +572,7 @@ footer ul {
         margin-top: 45px;
         width: 356px;
         height: 215px;
-        padding: 35px 34px 26px 33px;
+        padding: 25px 34px 24px 32px;
     }
 
     .team_paragraph {
